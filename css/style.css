@@ -1,0 +1,15 @@
+html {
+    height:100%;
+    margin:-10px 0px 0px 0px;
+}
+
+body {
+    height:100%;
+    margin:-10px 0px 0px 0px;
+ }
+
+.wrapper {
+    padding: 20px;
+    min-height: 100px;
+    background-image: linear-gradient(to bottom right, green, darkgreen);
+}
