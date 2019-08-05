@@ -46,7 +46,7 @@ let Game = function(){
             let pid = p+1;
             let pElement = "#player_"+pid+" .score";
             $(pElement).append("<h1>"+this.players[p].totalScore+"</h1>");
-            $(".info .game-info").append("<br/><div><b>"+this.players[p].name+" with the lowest score of "+this.players[p].totalScore+"</b></div>");
+            $(".info .game-info").append("<br/><div><b>"+this.players[p].name+" with a score of "+this.players[p].totalScore+"</b></div>");
             if(this.players[p].totalScore < bestScore){
                 bestScore = this.players[p].totalScore;
                 winner = p;
