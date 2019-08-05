@@ -13,3 +13,40 @@ body {
     min-height: 100px;
     background-image: linear-gradient(to bottom right, green, darkgreen);
 }
+
+.container-fluid {
+    margin-top:20px;
+}
+
+.container-fluid .row:last-child {
+    border-bottom: 1px solid #222222;
+}
+
+.row {
+    border-top: 1px solid #222222;
+}
+
+.row > div {
+    padding:10px;
+    border-right: 1px solid #222222;
+}
+
+.row > div:first-child {
+    border-left: 1px solid #222222;
+}
+
+.row > div:last-child {
+    width: calc(25% + 1px);
+}
+
+.info .game-info {
+    background-color:#FFFFFF;
+    height:150px;
+    overflow:auto;
+}
+
+.roll-score{
+    font-weight:bold;
+    display: inline-block;
+    margin-left:5px;
+}
